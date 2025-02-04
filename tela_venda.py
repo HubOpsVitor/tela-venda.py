@@ -1,4 +1,11 @@
+# # Projeto Tela Venda
+
+# @author Thiago Sanches
+# @author Lucas Henrique
+# @author Allan Vítor
+
 # Importar as bibliotecas do PyQt5
+
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QLabel, QLineEdit, QPushButton, QVBoxLayout, QHBoxLayout, QComboBox, QTextEdit, QSpacerItem, QSizePolicy
 )
