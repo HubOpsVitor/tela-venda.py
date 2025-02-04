@@ -111,7 +111,7 @@ class CaixaMercado(QWidget):
         self.layout_v_direita.addLayout(self.layout_h_pagamento)
 
         # ======== Caixa de Texto ======== 
-        self.label_obs = QLabel("Observações:")
+        self.label_obs = QLabel("")
         self.text_obs = QTextEdit()
         self.text_obs.setFixedHeight(80)  # Ajuste de altura
         self.layout_v_direita.addWidget(self.label_obs)
